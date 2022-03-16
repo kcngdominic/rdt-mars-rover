@@ -1,0 +1,15 @@
+D:\Dominic\repo\rdt-mars-rover\bin\Debug\net6.0\rdt-mars-rover.exe
+D:\Dominic\repo\rdt-mars-rover\bin\Debug\net6.0\rdt-mars-rover.deps.json
+D:\Dominic\repo\rdt-mars-rover\bin\Debug\net6.0\rdt-mars-rover.runtimeconfig.json
+D:\Dominic\repo\rdt-mars-rover\bin\Debug\net6.0\rdt-mars-rover.dll
+D:\Dominic\repo\rdt-mars-rover\bin\Debug\net6.0\rdt-mars-rover.pdb
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\rdt-mars-rover.csproj.AssemblyReference.cache
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\rdt-mars-rover.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\rdt-mars-rover.AssemblyInfoInputs.cache
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\rdt-mars-rover.AssemblyInfo.cs
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\rdt-mars-rover.csproj.CoreCompileInputs.cache
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\rdt-mars-rover.dll
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\refint\rdt-mars-rover.dll
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\rdt-mars-rover.pdb
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\rdt-mars-rover.genruntimeconfig.cache
+D:\Dominic\repo\rdt-mars-rover\obj\Debug\net6.0\ref\rdt-mars-rover.dll
