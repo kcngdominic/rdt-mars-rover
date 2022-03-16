@@ -3,12 +3,12 @@ namespace RdtMarsRover
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            foreach (string line in System.IO.File.ReadLines(@".\test.txt"))
-            {
-                Console.WriteLine(line);
-            }
-        }
+        // static void Main(string[] args)
+        // {
+        //     foreach (string line in System.IO.File.ReadLines(@".\test.txt"))
+        //     {
+        //         Console.WriteLine(line);
+        //     }
+        // }
     }
 }
