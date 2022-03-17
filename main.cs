@@ -1,5 +1,6 @@
 ﻿// using RoverNS;
 using RoverControllerNS;
+using Test;
 
 // See https://aka.ms/new-console-template for more information
 namespace RdtMarsRover
@@ -9,16 +10,21 @@ namespace RdtMarsRover
   {
     static void Main(string[] args)
     {
-      try
+      if (args.Length == 0)
       {
-        RoverController myCon = new RoverController(File.ReadAllText(String.Format(@".\testcase\in{0}.txt", 3)));
-        Console.WriteLine(myCon.getRoverPositionStr());
+        Console.WriteLine("Please enter the path to input file or \"test\".");
+        return;
+      }
+
+      if (args[0] == "test")
+      {
+        Test.Program.Test();
+      }
+      else
+      {
+        RoverController myCon = new RoverController(File.ReadAllText(args[0]));
         myCon.calculate();
         Console.WriteLine(myCon.getRoverPositionStr());
-      }
-      catch (Exception e)
-      {
-        Console.WriteLine(e.Message);
       }
     }
   }

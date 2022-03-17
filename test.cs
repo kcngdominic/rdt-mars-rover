@@ -3,9 +3,9 @@ namespace Test
 {
   class Program
   {
-    static void Main(string[] args)
+    public static void Test()
     {
-      foreach (int index in Enumerable.Range(1, 1))
+      foreach (int index in Enumerable.Range(1, 3))
       {
         string testInput = File.ReadAllText(String.Format(@".\testcase\in{0}.txt", index));
         string testOutput;
