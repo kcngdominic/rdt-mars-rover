@@ -10,6 +10,7 @@ namespace RoverNS
 
   public class Rover
   {
+    // to be printed for error message
     int id;
     int xCoor;
     int yCoor;
@@ -47,6 +48,7 @@ namespace RoverNS
     // process one command
     void step(char cmd)
     {
+      // turn left and right with the encoding behind enum, because we are smart
       if (cmd.Equals('L'))
       {
         facing = (direction)(((int)facing + 3) % 4);
@@ -72,7 +74,7 @@ namespace RoverNS
             xCoor--;
             break;
           default:
-            throw new Exception(String.Format("Unknown direction: {0}", facing));
+            throw new Exception(String.Format("Unknown direction for rover {0}: {1}", id, facing));
         }
         // check if we are out of bound
         if (xCoor < 0 || xCoor > xBound || yCoor < 0 || yCoor > yBound)
@@ -82,8 +84,7 @@ namespace RoverNS
       }
       else
       {
-        // throw some error here
-        throw new Exception(String.Format("Unknown action: {0}", cmd));
+        throw new Exception(String.Format("Unknown action for rover {0}: {1}", id, cmd));
       }
     }
   }
