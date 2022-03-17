@@ -5,7 +5,7 @@ namespace Test
   {
     public static void Test()
     {
-      foreach (int index in Enumerable.Range(1, 3))
+      foreach (int index in Enumerable.Range(1, 4))
       {
         string testInput = File.ReadAllText(String.Format(@".\testcase\in{0}.txt", index));
         string testOutput;
