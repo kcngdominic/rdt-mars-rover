@@ -1,0 +1,1 @@
+Rover 1 goes out of bound
