@@ -10,8 +10,7 @@ On your terminal, type:
 ```dotnet run -- test```  
 All 4 preset testcase will be ran and the result compared with the expected output will be printed on console.
 
-## Testcases
-Testcases are located at:
+## File Structure
 ```
 .
 ├── testcase             # Testcases, in1.txt is supposed to give out1.txt
